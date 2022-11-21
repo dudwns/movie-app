@@ -8,7 +8,7 @@ import Detail from "./routes/Detail"
 
 function App() {
  return (
-  <Router>     {/*라우터를 렌더링  */}
+  <Router basename={process.env.PUBLIC_URL}>     {/*라우터를 렌더링  */}
     <Routes>   {/*라우트를 찾음 */}
       <Route path="/hello" element={<h1>Hello</h1>}/>
       <Route path="/movie/:id" element={<Detail/>}/> {/* url이 /movie면 Detail 라우트를 렌더링 */}

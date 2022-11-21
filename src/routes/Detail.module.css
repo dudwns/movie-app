@@ -1,0 +1,19 @@
+.container {
+    display:flex;
+    border:1px solid gray;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.detail {
+    
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    width:80%;
+    height:800px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
